@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li a {
+  @apply font-semibold text-[#674188] py-4 px-8 block hover:bg-[#674188] hover:text-white transition duration-500;
+}
+
+.sidebar-category-list {
+  @apply border-b-2 border-gray-200 py-3;
+}
+.sidebar-post-list {
+  @apply border-none py-3;
+}
+.bg-image {
+  @apply bg-[url('../images/bg-1.jpg')];
+}
