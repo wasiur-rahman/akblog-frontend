@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- <link rel="stylesheet" href="assets/css/slick-theme.css" /> -->
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+  </head>
+  <body class="bg-light">
+    <header class="bg-semi-light">
+      <div class="container flex justify-between items-center mx-auto">
+        <div>
+          <div class="company-logo text-2xl font-extrabold text-deep">
+            <a href="">A&K Blog</a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <nav class="hidden md:block">
+            <ul class="flex items-center">
+              <li>
+                <a href="" class="">Home</a>
+              </li>
+              <li class="relative group">
+                <div class="flex items-center">
+                  <a href="" class="">Blog</a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4 transition-transform duration-500 transform group-hover:rotate-180 text-deep"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="text-left absolute bg-semi-light rounded-b-lg w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50 transition-all duration-500 transform -translate-y-full"
+                >
+                  <li>
+                    <a href="" class="hover:bg-deep hover:text-light">Home</a>
+                  </li>
+                  <li>
+                    <a href="" class="hover:bg-deep hover:text-light">Blog</a>
+                  </li>
+                  <li>
+                    <a href="" class="hover:bg-deep hover:text-light">About</a>
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="hover:bg-deep hover:text-light rounded-b-lg"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="" class="">About</a>
+              </li>
+              <li>
+                <a href="" class="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Mobile Menu -->
+          <div class="mobile-menu block md:hidden relative">
+            <div class="top-0 left-0">
+              <div
+                class="icon py-2 px-4 my-2 mx-4 bg-semi-light rounded border-2 border-deep text-deep cursor-pointer hover:bg-deep hover:border-light hover:text-light transition duration-500 md:hidden"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </div>
+              <nav
+                class="mobile-nav absolute right-0 bg-semi-light top-full w-screen sm:w-72 rounded-b-lg hidden md:hidden z-20"
+              >
+                <ul class="text-left">
+                  <li>
+                    <a href="" class="hover:bg-deep hover:text-light">Home</a>
+                  </li>
+                  <li>
+                    <a href="" class="hover:bg-deep hover:text-light">Blog</a>
+                  </li>
+                  <li>
+                    <a href="" class="hover:bg-deep hover:text-light">About</a>
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="hover:bg-deep hover:text-light rounded-b-lg"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- artical -->
+      <section class="py-10">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-12 gap-8 grid-flow-row">
+            <div class="col-span-12 md:col-span-8 px-6">
+              
+              <img src="assets/images/bg-1.jpg" alt="" class="w-full rounded-xl" />
+              <div class="flex items-center mt-4">
+                <!-- user image -->
+                <img
+                  src="assets/images/user-image.jpg"
+                  class="rounded-full h-10 w-10"
+                  alt=""
+                />
+                <!-- user name -->
+                <span class="ml-2 text-deep">John Doe</span>
+                <!-- Number of comments -->
+                <span class="ml-3 w-2 h-2 bg-deep rounded-full mt-1"></span>
+                <!-- date -->
+                <div class="ml-2 flex gap-1 items-center text-deep">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+                    </svg>
+                    
+                    </svg>
+                  </span>
+                  <span>Comments 35</span>
+                </div>
+
+                <span class="ml-3 w-2 h-2 bg-deep rounded-full mt-1"></span>
+                <!-- date -->
+                <div class="ml-2 flex gap-1 items-center text-deep">
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-5 stroke-deep"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                      />
+                    </svg>
+                  </span>
+                  11 Sep 2024
+                </div>
+              </div>
+              <!-- Post Title -->
+              <h1 class="text-3xl font-bold my-6">
+                What’s In Trend In Women's Fashion Summer?
+              </h1>
+              <div class="mt-8 text-justify text-gray-600">
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing hidden in the middle of text. All the Lorem Ipsum
+                  generators on the Internet tend to repeat predefined chunks as
+                  necessary, making this the first true generator on the
+                  Internet. It uses a dictionary of over 200 Latin words,
+                  combined with a handful.
+                </p>
+                <p>
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleasure and praising pain was born and I will give you a
+                  complete account of the system, and expound the actual
+                  teachings of the great explorer of the truth, the
+                  master-builder of human happiness. No one rejects, dislikes,
+                  or avoids pleasure itself. Lorem ipsum dolor sit amet
+                  consectetur, adipisicing elit. Minima obcaecati corporis,
+                  aspernatur architecto veritatis, maiores, atque minus
+                  recusandae tenetur nostrum facere sapiente eaque placeat
+                  molestias totam dignissimos quasi tempore a voluptatum!
+                  Facilis accusamus laboriosam suscipit molestiae iusto alias ut
+                  officia ea distinctio, nihil quibusdam unde ab dolor
+                  excepturi, maiores expedita!
+                </p>
+                <p>
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleasure and praising pain was born and I will give you a
+                  complete account of the system, and expound the actual
+                  teachings of the great explorer of the truth, the
+                  master-builder of human happiness. No one rejects, dislikes,
+                  or avoids pleasure itself. Lorem ipsum dolor sit amet
+                  consectetur, adipisicing elit. Minima obcaecati corporis,
+                  aspernatur architecto veritatis, maiores, atque minus
+                  recusandae tenetur nostrum facere sapiente eaque placeat
+                  molestias totam dignissimos quasi tempore a voluptatum!
+                  Facilis accusamus laboriosam suscipit molestiae iusto alias ut
+                  officia ea distinctio, nihil quibusdam unde ab dolor
+                  excepturi, maiores expedita!
+                </p>
+                <p>
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleasure and praising pain was born and I will give you a
+                  complete account of the system, and expound the actual
+                  teachings of the great explorer of the truth, the
+                  master-builder of human happiness. No one rejects, dislikes,
+                  or avoids pleasure itself. Lorem ipsum dolor sit amet
+                  consectetur, adipisicing elit. Minima obcaecati corporis,
+                  aspernatur architecto veritatis, maiores, atque minus
+                  recusandae tenetur nostrum facere sapiente eaque placeat
+                  molestias totam dignissimos quasi tempore a voluptatum!
+                  Facilis accusamus laboriosam suscipit molestiae iusto alias ut
+                  officia ea distinctio, nihil quibusdam unde ab dolor
+                  excepturi, maiores expedita!
+                </p>
+              </div>
+              <!-- Share on social media-->
+               <div class="mt-8 flex flex-col sm:flex-row gap-4 items-center">
+                <h4 class="text-xl font-semibold">Share: </h4>
+                <ul class="flex flex-col sm:flex-row gap-4 flex-wrap">
+                  <!-- facebook -->
+                  <li class=""><a href="" class="inline-flex gap-2 px-4 py-1 rounded text-deep bg-semi-light font-semibold hover:text-light group hover:bg-deep transition duration-500 items-center"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 71 72"
+                      fill="none" class="bg-light rounded group-hover:bg-deep transition duration-500">
+                      <path
+                        d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                        fill="currentColor" />
+                      </svg>
+                      
+                  </span>Facebook</a></li>
+                  <!-- twitter -->
+                  <li class=""><a href="" class="inline-flex gap-2 px-4 py-1 rounded text-deep bg-semi-light font-semibold hover:text-light group hover:bg-deep transition duration-500 items-center"><span></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 71 72"
+                      fill="none" class="bg-light rounded group-hover:bg-deep transition duration-500">
+                      <path
+                        d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                        fill="currentColor" />
+                      </svg>
+                      
+                  </span>Twitter</a></li>
+                  <!-- Pinterest -->
+                  <li class=""><a href="" class="inline-flex gap-2 px-4 py-1 rounded text-deep bg-semi-light font-semibold hover:text-light group hover:bg-deep transition duration-500 items-center"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 71 72"
+                      fill="none" class="bg-light rounded group-hover:bg-deep transition duration-500">
+                      <path
+                        d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                        fill="currentColor" />
+                      </svg>
+                      
+                  </span>Pinterest</a></li>
+                  <!-- linkedin -->
+                  <li class=""><a href="" class="inline-flex gap-2 px-4 py-1 rounded text-deep bg-semi-light font-semibold hover:text-light group hover:bg-deep transition duration-500 items-center"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 71 72"
+                      fill="none" class="bg-light rounded group-hover:bg-deep transition duration-500">
+                      <path
+                        d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                        fill="currentColor" />
+                      </svg>
+                      
+                  </span>Linkedin</a></li>
+                </ul>
+               </div>
+              <!-- post end -->
+
+               <!-- Author info -->
+                <div class="flex gap-8 py-14">
+                  <!-- Author image -->
+                  <div class="flex items-center w-4/12">
+                    <img src="assets/images/author.jpg" alt="" class="rounded-full w-full">
+                  </div>
+                  
+                  <div class="flex flex-col gap-4 ">
+                    <!--Author name -->
+                    <h4 class="text-2xl font-bold">Author: John Doe</h4>
+                    <!-- Author bio -->
+                     <p class="text-gray-600">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                     </p>
+                     <div class="flex gap-4 mt-2"> 
+                        <span class="">
+                          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 71 72"
+                          fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full">
+                          <path
+                            d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                            fill="currentColor" />
+                            </svg>
+                          </a>
+                        </span>
+                        <!-- Author twitter -->
+                        <span class="">
+                          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 71 72"
+                          fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full">
+                          <path
+                            d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                            fill="currentColor" />
+                            </svg>
+                          </a>
+                        </span>
+                        <!-- Author linkedin -->
+                        <span class="">
+                          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 71 72"
+                          fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full">
+                          <path
+                            d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                            fill="currentColor" />
+                            </svg>
+                          </a>
+                        </span>
+                        <!-- Author pinterest -->
+                        <span class="">
+                          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 71 72"
+                          fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full">
+                          <path
+                            d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                            fill="currentColor" />
+                            </svg>
+                          </a>
+                        </span>
+                     </div>
+                  </div>
+                 
+                </div>
+               <!-- pagination -->
+                <div class="flex flex-col md:flex-row border border-semi-light">
+                  <!-- left -->
+                  <a href="" class="p-8">
+                    <div class="flex gap-2 text-gray-500">
+                      <span class="uppercase">previous post</span>
+                    </div>
+                    <p class="text-left mt-10 text-gray-700">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae assumenda voluptatem saepe debitis vero nobis aspernatur, soluta libero tempora cupiditate.
+                    </p>
+                  </a>
+                  <!-- right -->
+                  <a href="" class="md:border-l md:border-semi-light border-t md:border-t-0 border-semi-light p-8">
+                    <div class="flex gap-2 text-gray-500 text-right justify-end md:justify-start">
+                      <span class="uppercase">next post</span>
+                    </div>
+                    <p class="text-right mt-10 text-gray-700 md:text-left">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae assumenda voluptatem saepe debitis vero nobis aspernatur, soluta libero tempora cupiditate.
+                    </p>
+                  </a>
+                </div>
+              <!-- comments -->
+               <div class="py-16">
+                <h4 class="text-2xl font-bold"> 5 Comments</h4>               
+                <!-- comment 01 -->
+                  <div class="flex gap-4 items-center border-b border-gray-300 py-10">
+                  <div class="w-3/12">
+                    <img src="assets/images/user-02.jpg" alt="" class="rounded-full">
+                  </div>
+                  <div class="flex gap-2 flex-col">
+                    <div class="flex gap-2 items-center">
+                      <h5 class="text-lg font-semibold">John Doe</h5>
+                      <p class="text-sm text-gray-400">
+                        says Jul 21, 2024 at 10:00am
+                      </p>
+                    </div>
+                    
+                    <p class="text-gray-500">
+                      I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system
+
+                    </p>
+                    <a href="" class="underline uppercase text-gray-400 mt-4">Reply</a>
+                  </div>
+                    
+                  </div>
+                  <!-- comment 02 -->
+                  <div class="flex gap-4 border-b border-gray-300 py-10">
+                  <div class="w-3/12"> 
+                    <img src="assets/images/user-02.jpg" alt="" class="rounded-full">
+                  </div>
+                  
+                  <div class="flex gap-2 flex-col">
+                    <div class="flex gap-2 items-center">
+                      <h5 class="text-lg font-semibold">John Doe</h5>
+                      <p class="text-sm text-gray-400">
+                        says Jul 21, 2024 at 10:00am
+                      </p>
+                    </div>
+                    
+                    <p class="text-gray-500">
+                      I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system
+
+                    </p>
+                    <a href="" class="underline uppercase text-gray-400 mt-4">Reply</a>
+                    <!-- Comment reply -->
+                    <div class="flex gap-4 items-center py-6 pl-8">
+                      <img src="assets/images/user-02.jpg" alt="" class="rounded-full">
+                      <div class="flex gap-2 flex-col">
+                        <div class="flex gap-2 items-center">
+                          <h5 class="text-lg font-semibold">John Doe</h5>
+                          <p class="text-sm text-gray-400">
+                            says Jul 21, 2024 at 10:00am
+                          </p>
+                        </div>
+                        
+                        <p class="text-gray-500">
+                          I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system
+                        </p>
+                        <a href="" class="underline uppercase text-gray-400 mt-4">Reply</a>
+                      </div>
+                        
+                      </div>
+                  </div>
+                    
+                  </div>
+                  <!-- Comment 03 -->
+                  <div class="flex gap-4 items-center border-b border-gray-300 py-10">
+                  <div class="w-3/12">
+                    <img src="assets/images/user-02.jpg" alt="" class="rounded-full">
+                  </div>
+                  <div class="flex gap-2 flex-col">
+                    <div class="flex gap-2 items-center">
+                      <h5 class="text-lg font-semibold">John Doe</h5>
+                      <p class="text-sm text-gray-400">
+                        says Jul 21, 2024 at 10:00am
+                      </p>
+                    </div>
+                    
+                    <p class="text-gray-500">
+                      I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system
+                    </p>
+                    <a href="" class="underline uppercase text-gray-400 mt-4">Reply</a>
+                  </div>
+                    
+                  </div>
+               </div>
+              <!-- Comments Form -->
+              <div>
+                <h3 class="text-2xl font-bold">Leave Your comment</h3>
+                <form action="" class="pt-10">
+                  <div class="grid gap-4 grid-cols-2 flex-col sm:flex-row">
+                    <div class="col-span-2 sm:col-span-1">
+                      <input type="text" placeholder="Your Name" class="rounded-2xl border border-semi-light focus:outline-none px-4 py-2 text-deep w-full"/>
+                    </div>
+                   <div class="col-span-2 sm:col-span-1 mt-5 sm:mt-0">
+                    <input type="text" placeholder="Email Address" class="rounded-2xl border border-semi-light focus:outline-none px-4 py-2 text-deep w-full"/>
+                   </div>
+                    <div class="col-span-2 mt-5">
+                      <input type="text" placeholder="Website Address" class=" rounded-2xl border border-semi-light focus:outline-none px-4 py-2 text-deep w-full"/>
+                    </div>
+                    <div class="col-span-2 mt-5">
+                      <textarea name="textarea" id="" class="rounded-2xl border border-semi-light focus:outline-none px-4 py-2 text-deep w-full h-52" placeholder="Your Comment"></textarea>
+                    </div>
+                    
+                  </div>
+                  <button class="mt-6 py-2 px-6 rounded-2xl text-light bg-deep font-semibold border border-deep hover:bg-light hover:text-deep transition duration-500">Submit</button>
+                </form>
+                  
+              </div>
+            </div>
+            <!-- sidebar -->
+            <div class="md:col-span-4 col-span-12">
+              <!-- Author -->
+              <div class="border p-6 border-gray-300 rounded-lg clear-both text-center">
+                <div class="flex justify-center ">
+                  <img src="assets/images/author.jpg" alt="" class="rounded-full w-48">
+                </div>
+                <h3 class="text-2xl font-bold mt-4">John Doe</h3>
+                <p class="text-lg text-gray-500 mt-2">
+                  I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system
+                </p>
+                <div class="flex gap-4 mt-8 justify-center"> 
+                  <!-- Facebook -->
+                  <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 72"
+                  fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full size-8">
+                  <path
+                    d="M46.4233 38.6403L47.7279 30.3588H39.6917V24.9759C39.6917 22.7114 40.8137 20.4987 44.4013 20.4987H48.1063V13.4465C45.9486 13.1028 43.7685 12.9168 41.5834 12.8901C34.9692 12.8901 30.651 16.8626 30.651 24.0442V30.3588H23.3193V38.6403H30.651V58.671H39.6917V38.6403H46.4233Z"
+                    fill="currentColor" />
+                    </svg>
+                  </a> 
+                  <!-- Author twitter -->
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full size-8">
+                    <path
+                      d="M40.7568 32.1716L59.3704 11H54.9596L38.7974 29.383L25.8887 11H11L30.5205 38.7983L11 61H15.4111L32.4788 41.5869L46.1113 61H61L40.7557 32.1716H40.7568ZM34.7152 39.0433L32.7374 36.2752L17.0005 14.2492H23.7756L36.4755 32.0249L38.4533 34.7929L54.9617 57.8986H48.1865L34.7152 39.0443V39.0433Z"
+                      fill="currentColor" />
+                    </svg>
+                  </a>
+                  <!-- Author linkedin -->
+                    <a href="">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full size-8">
+                    <path
+                      d="M24.7612 55.999V28.3354H15.5433V55.999H24.7621H24.7612ZM20.1542 24.5591C23.3679 24.5591 25.3687 22.4348 25.3687 19.7801C25.3086 17.065 23.3679 15 20.2153 15C17.0605 15 15 17.065 15 19.7799C15 22.4346 17.0001 24.5588 20.0938 24.5588H20.1534L20.1542 24.5591ZM29.8633 55.999H39.0805V40.5521C39.0805 39.7264 39.1406 38.8985 39.3841 38.3088C40.0502 36.6562 41.5668 34.9455 44.1138 34.9455C47.4484 34.9455 48.7831 37.4821 48.7831 41.2014V55.999H58V40.1376C58 31.6408 53.4532 27.6869 47.3887 27.6869C42.4167 27.6869 40.233 30.4589 39.0198 32.347H39.0812V28.3364H29.8638C29.9841 30.9316 29.8631 56 29.8631 56L29.8633 55.999Z"
+                      fill="currentColor" />
+                    </svg>
+                    </a>
+                  <!-- Author pinterest -->
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 72" fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full size-8">
+                  <path
+                    d="M33.2808 13.0437C25.8492 13.893 18.4439 20.0479 18.1382 28.84C17.9461 34.2083 19.435 38.2356 24.4258 39.3664C26.5915 35.4553 23.7272 34.5927 23.2818 31.7633C21.4523 20.1686 36.346 12.2615 44.14 20.3563C49.5324 25.9615 45.9826 43.206 37.2848 41.4136C28.9537 39.7017 41.3629 25.9749 34.713 23.2796C29.3074 21.0894 26.4343 29.9798 28.9974 34.396C27.4953 41.9902 24.2599 49.1464 25.5698 58.6715C29.8183 55.5158 31.2504 49.4727 32.425 43.1702C34.5601 44.4978 35.6998 45.8789 38.4244 46.0935C48.4714 46.8891 54.0822 35.8263 52.7112 25.6218C51.4929 16.5749 42.6729 11.971 33.2808 13.0437Z"
+                    fill="currentColor" />
+                  </svg>
+                  </a>
+                  <!-- Instagram -->
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 72" fill="none" class="bg-deep transition duration-500 text-light border border-deep hover:bg-light hover:stroke-deep hover:text-deep rounded-full size-8">
+                    <path
+                      d="M27.3762 35.7808C27.3762 31.1786 31.1083 27.4468 35.7132 27.4468C40.3182 27.4468 44.0522 31.1786 44.0522 35.7808C44.0522 40.383 40.3182 44.1148 35.7132 44.1148C31.1083 44.1148 27.3762 40.383 27.3762 35.7808ZM22.8683 35.7808C22.8683 42.8708 28.619 48.618 35.7132 48.618C42.8075 48.618 48.5581 42.8708 48.5581 35.7808C48.5581 28.6908 42.8075 22.9436 35.7132 22.9436C28.619 22.9436 22.8683 28.6908 22.8683 35.7808ZM46.0648 22.4346C46.0646 23.0279 46.2404 23.608 46.5701 24.1015C46.8997 24.595 47.3684 24.9797 47.9168 25.2069C48.4652 25.4342 49.0688 25.4939 49.6511 25.3784C50.2334 25.2628 50.7684 24.9773 51.1884 24.5579C51.6084 24.1385 51.8945 23.6041 52.0105 23.0222C52.1266 22.4403 52.0674 21.8371 51.8404 21.2888C51.6134 20.7406 51.2289 20.2719 50.7354 19.942C50.2418 19.6122 49.6615 19.436 49.0679 19.4358H49.0667C48.2708 19.4361 47.5077 19.7522 46.9449 20.3144C46.3821 20.8767 46.0655 21.6392 46.0648 22.4346ZM25.6072 56.1302C23.1683 56.0192 21.8427 55.6132 20.9618 55.2702C19.7939 54.8158 18.9606 54.2746 18.0845 53.4002C17.2083 52.5258 16.666 51.6938 16.2133 50.5266C15.8699 49.6466 15.4637 48.3214 15.3528 45.884C15.2316 43.2488 15.2073 42.4572 15.2073 35.781C15.2073 29.1048 15.2336 28.3154 15.3528 25.678C15.4639 23.2406 15.8731 21.918 16.2133 21.0354C16.668 19.8682 17.2095 19.0354 18.0845 18.1598C18.9594 17.2842 19.7919 16.7422 20.9618 16.2898C21.8423 15.9466 23.1683 15.5406 25.6072 15.4298C28.244 15.3086 29.036 15.2844 35.7132 15.2844C42.3904 15.2844 43.1833 15.3106 45.8223 15.4298C48.2612 15.5408 49.5846 15.9498 50.4677 16.2898C51.6356 16.7422 52.4689 17.2854 53.345 18.1598C54.2211 19.0342 54.7615 19.8682 55.2161 21.0354C55.5595 21.9154 55.9658 23.2406 56.0767 25.678C56.1979 28.3154 56.2221 29.1048 56.2221 35.781C56.2221 42.4572 56.1979 43.2466 56.0767 45.884C55.9656 48.3214 55.5573 49.6462 55.2161 50.5266C54.7615 51.6938 54.2199 52.5266 53.345 53.4002C52.4701 54.2738 51.6356 54.8158 50.4677 55.2702C49.5872 55.6134 48.2612 56.0194 45.8223 56.1302C43.1855 56.2514 42.3934 56.2756 35.7132 56.2756C29.033 56.2756 28.2432 56.2514 25.6072 56.1302ZM25.4001 10.9322C22.7371 11.0534 20.9174 11.4754 19.3282 12.0934C17.6824 12.7316 16.2892 13.5878 14.897 14.977C13.5047 16.3662 12.6502 17.7608 12.0116 19.4056C11.3933 20.9948 10.971 22.8124 10.8497 25.4738C10.7265 28.1394 10.6982 28.9916 10.6982 35.7808C10.6982 42.57 10.7265 43.4222 10.8497 46.0878C10.971 48.7494 11.3933 50.5668 12.0116 52.156C12.6502 53.7998 13.5049 55.196 14.897 56.5846C16.289 57.9732 17.6824 58.8282 19.3282 59.4682C20.9204 60.0862 22.7371 60.5082 25.4001 60.6294C28.0687 60.7506 28.92 60.7808 35.7132 60.7808C42.5065 60.7808 43.3592 60.7526 46.0264 60.6294C48.6896 60.5082 50.5081 60.0862 52.0983 59.4682C53.7431 58.8282 55.1373 57.9738 56.5295 56.5846C57.9218 55.1954 58.7745 53.7998 59.4149 52.156C60.0332 50.5668 60.4575 48.7492 60.5768 46.0878C60.698 43.4202 60.7262 42.57 60.7262 35.7808C60.7262 28.9916 60.698 28.1394 60.5768 25.4738C60.4555 22.8122 60.0332 20.9938 59.4149 19.4056C58.7745 17.7618 57.9196 16.3684 56.5295 14.977C55.1395 13.5856 53.7431 12.7316 52.1003 12.0934C50.5081 11.4754 48.6894 11.0514 46.0284 10.9322C43.3612 10.811 42.5085 10.7808 35.7152 10.7808C28.922 10.7808 28.0687 10.809 25.4001 10.9322Z"
+                      fill="currentColor" />
+                    </svg>
+                    </a>
+               </div>
+              </div>
+              <!-- Search Box -->
+              <div class="border p-6 bg-semi-light border-gray-300 rounded-lg clear-both mt-6">
+                <div class="flex p-4 rounded-lg">
+                  <input type="text" placeholder="Search" class="py-3 flex gap-2 text-deep font-semibold focus:outline-none px-4 rounded-l-xl bg-light w-[80%]">
+                  <button class="bg-deep px-4 py-3 flex gap-2 items-center rounded-r-lg w-[20%]  justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-light font-bold">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                  </button>
+                </div>
+              </div>
+              <!-- Trending Topics -->
+              <div class="border p-6 border-gray-300 rounded-lg clear-both mt-6">
+                <!-- Title -->
+                <div class="relative">
+                  <h3
+                    class="font-semibold text-2xl text-gray-700 before:absolute before:w-[15%] before:h-1 before:bg-deep before:left-0 before:rounded before:-bottom-4 after:w-[80%] after:h-1 after:bg-gray-300 after:right-0 after:rounded after:-bottom-4 after:absolute"
+                  >
+                    Trending Topics
+                  </h3>
+                </div>
+                <!-- Category list -->
+                <ul class="mt-8">
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Travel</span>
+                      </div>
+
+                      <span>(05)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Inspiration</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Fashion</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Photography</span>
+                      </div>
+
+                      <span>(05)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Travel</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Business</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- category list end -->
+              </div>
+              <!-- Recent Posts -->
+              <div
+                class="recent-post border p-6 border-gray-300 rounded-lg clear-both mt-6"
+              >
+                <!-- Title -->
+                <div class="relative">
+                  <h3
+                    class="font-semibold text-2xl text-gray-700 before:absolute before:w-[15%] before:h-1 before:bg-deep before:left-0 before:rounded before:-bottom-4 after:w-[80%] after:h-1 after:bg-gray-300 after:right-0 after:rounded after:-bottom-4 after:absolute"
+                  >
+                    Recent Post
+                  </h3>
+                </div>
+
+                <ul class="mt-8">
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Instragram -->
+              <div class="border p-6 border-gray-300 rounded-lg clear-both mt-6">
+                <!-- Title -->
+                <div class="relative">
+                  <h3
+                    class="font-semibold text-2xl text-gray-700 before:absolute before:w-[15%] before:h-1 before:bg-deep before:left-0 before:rounded before:-bottom-4 after:w-[80%] after:h-1 after:bg-gray-300 after:right-0 after:rounded after:-bottom-4 after:absolute"
+                  >
+                    Instragram
+                  </h3>
+                </div>
+                <ul class="flex mt-6 flex-wrap">
+                  <li class="flex-[0_0_33.3%] px-[3px] mt-2 rounded"><img src="assets/images/ins-1.jpg" alt="" class="rounded-lg"></li>
+                  <li class="flex-[0_0_33.3%] px-[3px] mt-2 rounded"><img src="assets/images/ins-2.jpg" alt="" class="rounded-lg"></li>
+                  <li class="flex-[0_0_33.3%] px-[3px] mt-2 rounded"><img src="assets/images/ins-3.jpg" alt="" class="rounded-lg"></li>
+                  <li class="flex-[0_0_33.3%] px-[3px] mt-2 rounded"><img src="assets/images/ins-4.jpg" alt="" class="rounded-lg"></li>
+                  <li class="flex-[0_0_33.3%] px-[3px] mt-2 rounded"><img src="assets/images/ins-5.jpg" alt="" class="rounded-lg"></li>
+                  <li class="flex-[0_0_33.3%] px-[3px] mt-2 rounded"><img src="assets/images/ins-6.jpg" alt="" class="rounded-lg"></li>
+                </ul>
+              </div>
+              <!-- Tags -->
+              <div class="border p-6 border-gray-300 rounded-lg clear-both mt-6">
+                <!-- Title -->
+                <div class="relative">
+                  <h3
+                    class="font-semibold text-2xl text-gray-700 before:absolute before:w-[15%] before:h-1 before:bg-deep before:left-0 before:rounded before:-bottom-4 after:w-[80%] after:h-1 after:bg-gray-300 after:right-0 after:rounded after:-bottom-4 after:absolute"
+                  >
+                    Tags
+                  </h3>
+                </div>
+                <ul class="flex mt-10 flex-wrap">
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-2 py-1">Travel</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-2 py-1">Food</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-3 border border-deep hover:bg-light hover:text-deep transition duration-500 py-1">Lifestyle</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-3 border border-deep hover:bg-light hover:text-deep transition duration-500 py-1">Business</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-3 border border-deep hover:bg-light hover:text-deep transition duration-500 py-1">Idea</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-3 border border-deep hover:bg-light hover:text-deep transition duration-500 py-1">Finance</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-3 border border-deep hover:bg-light hover:text-deep transition duration-500 py-1">Corporate</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-3 border border-deep hover:bg-light hover:text-deep transition duration-500 py-1">Culture</a></li>
+                  <li class="mr-2 mb-2"><a href="#" class="block text-light bg-deep rounded-lg px-3 border border-deep hover:bg-light hover:text-deep transition duration-500 py-1">Gym</a></li>
+                </ul>
+              </div>
+              <!-- Ad image -->
+              <div
+                class="recent-post border p-6 border-gray-300 rounded-lg clear-both mt-6"
+              >
+                <div class="">
+                  <img
+                    src="assets/images/ad.jpg"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <!-- ad image end -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-10">
+      <section class="bg-[#38224c] py-10">
+        <!-- footer container start -->
+        <div class="container mx-auto">
+          <div class="grid grid-cols-4 gap-6">
+            <div class="col-span-4 md:col-span-2 lg:col-span-1">
+              <h2 class="text-3xl font-bold text-light mb-8">A&K Blog</h2>
+              <p class="text-light mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum corporis facilis animi earum eum, nobis eaque quia
+                cum provident accusantium!
+              </p>
+            </div>
+            <!-- Footer Important Link -->
+            <div class="col-span-2 lg:col-span-1">
+              <h4 class="text-3xl font-bold text-light mb-8">Important Link</h4>
+              <ul>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >News</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Career</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Technology</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Startups</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Gadgets</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Footer Recent post -->
+            <div class="col-span-2 lg:col-span-1">
+              <h4 class="text-3xl font-bold text-light mb-8">Important Link</h4>
+              <ul>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                  >
+                    <div class="content">
+                      <h3 class="font-bold text-light mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-2 items-center text-gray-500">
+                        <!-- Post Date -->
+                        <div class="text-gray-primary flex gap-2">
+                          <span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="size-6"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                              />
+                            </svg>
+                          </span>
+                          11 Sep 2024
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                  >
+                    <div class="content">
+                      <h3 class="font-bold text-light mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-2 items-center text-gray-500">
+                        <!-- Post Date -->
+                        <div class="text-gray-primary flex gap-2">
+                          <span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="size-6"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                              />
+                            </svg>
+                          </span>
+                          11 Sep 2024
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Footer Newsletter -->
+            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+              <h4 class="text-3xl font-bold text-light mb-8">Important Link</h4>
+              <p class="text-light mt-4">
+                Get the freshest headlines and updates sent uninterrupted to
+                your inbox.
+              </p>
+              <div class="mt-4 flex p-2 bg-light rounded">
+                <input
+                  type="text"
+                  class="w-full focus:outline-none text-deep p-2 text-lg font-semibold bg-light"
+                  placeholder="Email address"
+                />
+                <button
+                  class="bg-deep txt-light px-8 py-4 flex gap-2 items-center rounded"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 stroke-light"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer container end -->
+      </section>
+      <!-- copy right -->
+      <div class="bg-deep text-light py-4 text-center">
+        <p>Copyright &copy; 2022 All rights reserved by Wasiur Rahman</p>
+      </div>
+      <!-- js file link -->
+      <script src="assets/js/jqyery.min.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+      <script src="assets/js/main.js"></script>
+    </footer>
+  </body>
+</html>
