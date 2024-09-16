@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- <link rel="stylesheet" href="assets/css/slick-theme.css" /> -->
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+  </head>
+  <body class="bg-light">
+    <header class="bg-semi-light">
+      <div class="container flex justify-between items-center mx-auto">
+        <div>
+          <div class="company-logo text-2xl font-extrabold text-deep">
+            <a href="index.html">A&K Blog</a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <nav class="hidden md:block">
+            <ul class="flex items-center">
+              <li>
+                <a href="index.html" class="">Home</a>
+              </li>
+              <li class="relative group">
+                <div class="flex items-center">
+                  <a href="archive.html" class="">Blog</a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4 transition-transform duration-500 transform group-hover:rotate-180 text-deep"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+                <!-- Dropdown Menu -->
+                <ul
+                  class="text-left absolute bg-semi-light rounded-b-lg w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50 transition-all duration-500 transform -translate-y-full"
+                >
+                  <li>
+                    <a href="index.html" class="hover:bg-deep hover:text-light"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="archive.html"
+                      class="hover:bg-deep hover:text-light"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href="about.html" class="hover:bg-deep hover:text-light"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="contact.html"
+                      class="hover:bg-deep hover:text-light rounded-b-lg"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="about.html" class="">About</a>
+              </li>
+              <li>
+                <a href="contact.html" class="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Mobile Menu -->
+          <div class="mobile-menu block md:hidden relative">
+            <div class="top-0 left-0">
+              <div
+                class="icon py-2 px-4 my-2 mx-4 bg-semi-light rounded border-2 border-deep text-deep cursor-pointer hover:bg-deep hover:border-light hover:text-light transition duration-500 md:hidden"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </div>
+              <nav
+                class="mobile-nav absolute right-0 bg-semi-light top-full w-screen sm:w-72 rounded-b-lg hidden md:hidden z-20"
+              >
+                <ul class="text-left">
+                  <li>
+                    <a href="index.html" class="hover:bg-deep hover:text-light"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="archive.html"
+                      class="hover:bg-deep hover:text-light"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href="about.html" class="hover:bg-deep hover:text-light"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="contact.html"
+                      class="hover:bg-deep hover:text-light rounded-b-lg"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="py-10">
+        <div class="container mx-auto">
+          <div class="relative">
+            <h2
+              class="text-2xl inline-block py-2 px-4 rounded-lg text-gray-700 font-bold mb-8 before:absolute before:w-28 before:bottom-5 before:left-4 before:bg-deep before:h-1 before:rounded-lg after:absolute after:w-8 after:bottom-5 after:left-36 after:bg-deep after:h-1 after:rounded-lg"
+            >
+              Archive Posts
+            </h2>
+          </div>
+          <div class="grid grid-cols-12 gap-4 grid-flow-row">
+            <div class="col-span-12 md:col-span-8">
+              <div
+                class="grid grid-cols-12 gap-x-6 gap-y-10 border p-6 border-gray-300 rounded-lg"
+              >
+                <!-- Post One -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/bg-1.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-deep text-light rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <a href="single.html">
+                        <h3 class="font-bold text-lg text-gray-700 mt-4">
+                          Traveling Makes You More Inteligent and More Energetic
+                        </h3>
+                      </a>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Post Two -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/bg-2.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-deep text-light rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <h3 class="font-bold text-lg text-gray-700 mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Post Three -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/bg-3.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-deep text-light rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <h3 class="font-bold text-lg text-gray-700 mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Post four -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/breaking news-1.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-light text-deep rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <h3 class="font-bold text-lg text-gray-700 mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Post five -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/bg-1.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-deep text-light rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <h3 class="font-bold text-lg text-gray-700 mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Post six -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/bg-1.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-light text-deep rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <h3 class="font-bold text-lg text-gray-700 mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Post seven -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/bg-1.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-deep text-light rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <h3 class="font-bold text-lg text-gray-700 mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Post eight -->
+                <div class="col-span-12 sm:col-span-6 group overflow-hidden">
+                  <div class="relative rounded-lg overflow-hidden">
+                    <img
+                      src="assets/images/bg-1.jpg"
+                      alt=""
+                      class="rounded-lg w-full h-auto group-hover:scale-105 transition duration-500 group-hover:grayscale"
+                    />
+                    <!-- bage -->
+                    <div
+                      class="absolute top-0 left-4 text-md font-bold bg-deep text-light rounded-lg px-2 py-2 inline-block my-4"
+                    >
+                      Category
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="">
+                      <h3 class="font-bold text-lg text-gray-700 mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-4 items-center text-gray-500">
+                        <!-- user image -->
+                        <span
+                          ><img
+                            src="assets/images/user-image.jpg"
+                            alt=""
+                            class="rounded-full w-10 h-10"
+                        /></span>
+                        <!-- user name -->
+                        <span>John Doe</span>
+                        <span class="font-extrabold">.</span>
+                        <!-- Post Date -->
+                        <span class="">11 Sep 2024</span>
+                      </div>
+                      <!-- content -->
+                      <p class="text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos at dolorem amet culpa odio molestias!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- post end -->
+                <!-- pagination -->
+                <div class="col-span-12 mt-4 mb-10">
+                  <ul class="flex justify-center mt-6 gap-4 flex-wrap">
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="size-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15.75 19.5 8.25 12l7.5-7.5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        >1</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        >2</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        >3</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        >4</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        >5</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        >6</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="bg-deep text-light text-basic py-2 px-4 rounded border block border-deep hover:text-deep hover:bg-light transition duration-500"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="size-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- sidebar -->
+            <div class="md:col-span-4 col-span-12">
+              <div class="border p-6 border-gray-300 rounded-lg clear-both">
+                <!-- Title -->
+                <div class="relative">
+                  <h3
+                    class="font-semibold text-2xl text-gray-700 before:absolute before:w-[15%] before:h-1 before:bg-deep before:left-0 before:rounded before:-bottom-4 after:w-[80%] after:h-1 after:bg-gray-300 after:right-0 after:rounded after:-bottom-4 after:absolute"
+                  >
+                    Trending Topics
+                  </h3>
+                </div>
+                <!-- Category list -->
+                <ul class="mt-8">
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Travel</span>
+                      </div>
+
+                      <span>(05)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Inspiration</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Fashion</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Photography</span>
+                      </div>
+
+                      <span>(05)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Travel</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-category-list">
+                    <a
+                      href=""
+                      class="flex justify-between relative text-lg text-gray-600"
+                    >
+                      <div class="flex gap-2 items-center">
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-5"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </span>
+                        <span class="">Business</span>
+                      </div>
+
+                      <span>(07)</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- category list end -->
+              </div>
+              <!-- Recent Posts -->
+              <div
+                class="recent-post border p-6 border-gray-300 rounded-lg clear-both mt-6"
+              >
+                <!-- Title -->
+                <div class="relative">
+                  <h3
+                    class="font-semibold text-2xl text-gray-700 before:absolute before:w-[15%] before:h-1 before:bg-deep before:left-0 before:rounded before:-bottom-4 after:w-[80%] after:h-1 after:bg-gray-300 after:right-0 after:rounded after:-bottom-4 after:absolute"
+                  >
+                    Recent Post
+                  </h3>
+                </div>
+
+                <ul class="mt-8">
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="sidebar-post-list">
+                    <a href="" class="flex gap-3 text-gray-600">
+                      <div class="w-28 h-auto">
+                        <img
+                          src="assets/images/bg-1.jpg"
+                          alt=""
+                          class="w-full h-full rounded"
+                        />
+                      </div>
+                      <div>
+                        <p class="text-gray-500">13 Sep 2024</p>
+                        <h4 class="font-semibold text-gray-700 mt-2">
+                          Perfect Photo Clicking Idea You Must Know.
+                        </h4>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Ad image -->
+              <div
+                class="recent-post border p-6 border-gray-300 rounded-lg clear-both mt-6"
+              >
+                <div class="">
+                  <img
+                    src="assets/images/ad.jpg"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <!-- ad image end -->
+            </div>
+          </div>
+          <!-- P -->
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="mt-10">
+      <section class="bg-[#38224c] py-10">
+        <!-- footer container start -->
+        <div class="container mx-auto">
+          <div class="grid grid-cols-4 gap-6">
+            <div class="col-span-4 md:col-span-2 lg:col-span-1">
+              <h2 class="text-3xl font-bold text-light mb-8">A&K Blog</h2>
+              <p class="text-light mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum corporis facilis animi earum eum, nobis eaque quia
+                cum provident accusantium!
+              </p>
+            </div>
+            <!-- Footer Important Link -->
+            <div class="col-span-2 lg:col-span-1">
+              <h4 class="text-3xl font-bold text-light mb-8">Important Link</h4>
+              <ul>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >News</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Career</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Technology</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Startups</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                    >Gadgets</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Footer Recent post -->
+            <div class="col-span-2 lg:col-span-1">
+              <h4 class="text-3xl font-bold text-light mb-8">Important Link</h4>
+              <ul>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                  >
+                    <div class="content">
+                      <h3 class="font-bold text-light mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-2 items-center text-gray-500">
+                        <!-- Post Date -->
+                        <div class="text-gray-primary flex gap-2">
+                          <span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="size-6"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                              />
+                            </svg>
+                          </span>
+                          11 Sep 2024
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-light mt-2 block hover:translate-x-4 transition duration-500"
+                  >
+                    <div class="content">
+                      <h3 class="font-bold text-light mt-4">
+                        Traveling Makes You More Inteligent and More Energetic
+                      </h3>
+                      <div class="flex gap-3 mt-2 items-center text-gray-500">
+                        <!-- Post Date -->
+                        <div class="text-gray-primary flex gap-2">
+                          <span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="size-6"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                              />
+                            </svg>
+                          </span>
+                          11 Sep 2024
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Footer Newsletter -->
+            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+              <h4 class="text-3xl font-bold text-light mb-8">Important Link</h4>
+              <p class="text-light mt-4">
+                Get the freshest headlines and updates sent uninterrupted to
+                your inbox.
+              </p>
+              <div class="mt-4 flex p-2 bg-light rounded">
+                <input
+                  type="text"
+                  class="w-full focus:outline-none text-deep p-2 text-lg font-semibold bg-light"
+                  placeholder="Email address"
+                />
+                <button
+                  class="bg-deep txt-light px-8 py-4 flex gap-2 items-center rounded"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 stroke-light"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer container end -->
+      </section>
+      <!-- copy right -->
+      <div class="bg-deep text-light py-4 text-center">
+        <p>Copyright &copy; 2022 All rights reserved by Wasiur Rahman</p>
+      </div>
+      <!-- js file link -->
+      <script src="assets/js/jqyery.min.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+      <script src="assets/js/main.js"></script>
+    </footer>
+  </body>
+</html>
